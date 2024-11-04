@@ -1,0 +1,38 @@
+1. Node is initial (npm init --y)
+2. Package.json
+3. Express JS Backend with json
+    - yarn add Express / npm i express (This is an package yarn or npm) (এটি ইন্টল করার কারন হলো পরবর্তীতে আমাদের Backend এর সকল কাজ করতে হবে  এই Express দিয়ে)
+    - yarn add cookie-parser (Cookie ধরা বা Cookie পাঠানোর জন্য আমরা মূলতো এটি ইন্টল করতে হবে।)
+    - yarn add cors (ধরে নিতে পারেন এখানে আপন তৈরি কৃত ওয়েজ পেজটি কউ কম্পউটার হতে ব্যবহার করছে আবার ধরেন কেউ মোবাইল থেকে ব্যবহার করছে। সেটা কস্ট্রোল করার জন্য আপনি Cors ব্যবহার করবেন।)
+    - yarn add express-rate-limit (কোন ব্যবহার করারি এসে যাতে বার বার ইনভেলিড এটাক করতে না পারে তাই এটি ইন্টল করতে হবে।)
+    - yarn add helmet (Content Security Policy, Content Privacy Policy, Content I Jacket বন্ধ বা কন্ট্রোল করার জন্য এটি ব্যবহার করতে হবে।)
+    - yarn add hpp (আপনার ওয়েব সাইটের URL Pollution ও URL Attacked থেকে রক্ষা পেতে এটি ব্যবহার করা হয়।)
+    - yarn add jsonwebtoken (JWT) (web site বিভিন্ন ধরনের Authentication বা Token Control করার জন্য এটি ব্যবহার করা হয়।)
+    - yarn add mongoose (Backend Data Storage বা Backend Data Center হিসেবে ব্যবহার করার জন্য এটি ব্যবহার করা হয়।)
+    - yarn add nodemailer (কোন প্রকার Authentication বা Verification মেইল পাঠানোর জন্য আমরা এটি ব্যবহার করবো।)
+    - yarn add nodemon (সবগুলো পেকেজ যখন আমি সেট করবো এবং সবগুলোকে সাজাবো তার পরে আমার Express js কে রন করানোর জন্য nodemon প্রয়োজন হবে।)
+
+4. Backend File Folder Structure Model
+    - App
+        - Config
+            - config.js
+        - Controllers
+            - taskControllers.js
+        - MiddleWares
+            -authMiddleware.js
+        - Model
+        - Utility
+            - validationUtility.js
+            - tokenUtility.js
+            - emailUtility.js
+    - Storage
+    - Routes
+        - api.js
+5. app.js
+    - Import Application all Packages
+    - Global Application Middleware
+    - Web Caching
+    - MongoDB Connection
+    - Set API Routes
+    - Set Application Storage
+    - Run Your Express Backend Project
